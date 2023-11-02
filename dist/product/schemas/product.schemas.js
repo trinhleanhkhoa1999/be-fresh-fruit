@@ -21,6 +21,14 @@ __decorate([
     (0, mongoose_1.Prop)(),
     __metadata("design:type", Number)
 ], Product.prototype, "price", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", String)
+], Product.prototype, "urlImge", void 0);
+__decorate([
+    (0, mongoose_1.Prop)(),
+    __metadata("design:type", Number)
+], Product.prototype, "percentDiscount", void 0);
 Product = __decorate([
     (0, mongoose_1.Schema)({
         timestamps: true,

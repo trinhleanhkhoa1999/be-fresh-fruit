@@ -21,5 +21,13 @@ __decorate([
     (0, class_validator_1.IsNumberString)(),
     __metadata("design:type", Number)
 ], UpdateProductDto.prototype, "price", void 0);
+__decorate([
+    (0, class_validator_1.IsString)(),
+    __metadata("design:type", String)
+], UpdateProductDto.prototype, "urlImge", void 0);
+__decorate([
+    (0, class_validator_1.IsNumberString)(),
+    __metadata("design:type", Number)
+], UpdateProductDto.prototype, "percentDiscount", void 0);
 exports.UpdateProductDto = UpdateProductDto;
 //# sourceMappingURL=update-product.dto.js.map

@@ -26,6 +26,8 @@
 export declare class Product {
     name: string;
     price: number;
+    urlImge: string;
+    percentDiscount: number;
 }
 export declare const ProductSchema: import("mongoose").Schema<Product, import("mongoose").Model<Product, any, any, any, import("mongoose").Document<unknown, any, Product> & Omit<Product & {
     _id: import("mongoose").Types.ObjectId;

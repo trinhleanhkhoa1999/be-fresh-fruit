@@ -16,17 +16,31 @@ class CreateProductDto {
 }
 __decorate([
     (0, swagger_1.ApiProperty)({
-        example: 'Coca Cola',
+        example: "Coca Cola",
     }),
     (0, class_validator_1.IsString)(),
     __metadata("design:type", String)
 ], CreateProductDto.prototype, "name", void 0);
 __decorate([
+    (0, swagger_1.ApiProperty)({
+        example: "url img",
+    }),
+    (0, class_validator_1.IsString)(),
+    __metadata("design:type", String)
+], CreateProductDto.prototype, "urlImge", void 0);
+__decorate([
     (0, class_validator_1.IsNumberString)(),
     (0, swagger_1.ApiProperty)({
-        example: '998',
+        example: "998",
     }),
     __metadata("design:type", Number)
 ], CreateProductDto.prototype, "price", void 0);
+__decorate([
+    (0, class_validator_1.IsNumberString)(),
+    (0, swagger_1.ApiProperty)({
+        example: "10",
+    }),
+    __metadata("design:type", Number)
+], CreateProductDto.prototype, "percentDiscount", void 0);
 exports.CreateProductDto = CreateProductDto;
 //# sourceMappingURL=create-product.dto.js.map
